@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medibridge - Your Healthcare Partner</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .strip {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #2980b9;
+            color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .search-bar {
+            flex-grow: 1;
+            margin-left: 20px;
+            padding: 12px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            font-size: 18px;
+            background-color: #fff;
+            color: #333;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .search-bar:focus {
+            border-color: #2471a3;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .photo {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            padding: 14px 28px;
+            background-color: #2471a3;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 30px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #195a82;
+            border-color: #195a82;
+        }
+
+        .content {
+            max-width: 800px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #2980b9;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .more-photos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .more-photos img {
+            max-width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .button-find{
+            background-color: rgb(177, 96, 242);
+            color: white;
+            border: 2px solid rgb(177, 96, 242);
+            border-radius: 30px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 28px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 1s ease,border-width 1s ease,color 1s ease;
+        }
+        .button-find:hover {
+            background-color: white;
+            border-color: aqua;
+            color:aqua;
+            border-width: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="strip">
+        <div class="title">Medibridge</div>
+        <input type="text" class="search-bar" placeholder="Search for doctors, services, etc.">
+    </div>
+
+    <div class="main-content">
+        <img src="download.jpeg" alt="Medicare" class="photo">
+        <div class="content">
+            <h2>Welcome to Medibridge</h2>
+            <p>Your trusted healthcare partner for all your medical needs. From finding the right doctor to scheduling appointments and accessing healthcare resources, we've got you covered.</p>
+            <p>Whether you need to report a problem, plan your surgery, book an appointment, or in case of emergency, Medibridge makes it easy and convenient.</p>
+        </div>
+        <div class="button-container">
+            <a href="undermaintenance.html" class="button">Elaborate Your Problem</a>
+            <a href="undermaintenance.html" class="button">Plan My Surgery</a>
+            <a href="undermaintenance.html" class="button">Book Appointment</a>
+            <a href="undermaintenance.html" class="button">Emergency</a>
+            <a href="undermaintenance.html" class="button">Report a Problem</a>
+            <a href="Find_doctor.html" class="button-find">Find Doctors</a>
+            <a href="undermaintenance.html" class="button">Contact Specialist</a>
+        </div>
+        <div class="more-photos">
+            <img src="ishaan.avif" alt="Medicare">
+            <img src="download (1).jpeg" alt="Medicare">
+            <img src="download (2).jpeg" alt="Medicare">
+        </div>
+    </div>
+</body>
+</html>
+

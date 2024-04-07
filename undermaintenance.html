@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenance - MediBridge</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5; /* Light blue-gray background */
+            color: #333;
+        }
+
+        .strip {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #2980b9; /* Blue strip background */
+            color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .heading {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2980b9; /* Blue heading color */
+        }
+
+        .message {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #e74c3c; /* Red message color */
+        }
+
+        .link {
+            font-size: 28px;
+            text-align: center;
+            color: #fff; /* White link color */
+            background-color: #2980b9; /* Blue link background */
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #1e647a; /* Darker blue on hover */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="strip">
+        <div class="title">MediBridge</div>
+    </div>
+
+    <h1 class="heading">Site Under Maintenance</h1>
+
+    <p class="message">Kindly click on "Find Doctor" as that option is currently working.</p>
+
+    <div class="link" onclick="redirectToFindDoctor()">Find Doctor</div>
+
+    <script>
+        function redirectToFindDoctor() {
+            // Replace this URL with the URL of your "Find Doctor" page
+            window.location.href = "find_doctor.html";
+        }
+    </script>
+
+</body>
+</html>
